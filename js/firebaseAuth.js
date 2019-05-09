@@ -16,6 +16,7 @@ const passwortInput = document.getElementById('password');
 
 var buttonLogin = document.getElementById('login');
 var buttonSignin = document.getElementById('signin');
+var buttonLogout = document.getElementById('logout');
 
 
  buttonLogin.addEventListener('click', e => {
@@ -38,4 +39,22 @@ buttonSignin.addEventListener('click', e => {
     const promise = auth.createUserWithEmailAndPassword(email, pass);
 
     promise.catch(e => console.log(e.massage));
+
+});
+
+
+buttonLogout.addEventListener('click', e => {
+   firebase.auth().signOut();
+});
+
+
+firebase.auth().onAuthStateChanged(firebaseUser => {
+    if(firebaseUser){
+        console.log(firebaseUser);
+        buttonLogout.classList.remove('hide');
+
+    }else{
+        console.log('no logged in');
+        buttonLogout.classList.add('hide');
+    }
 });
