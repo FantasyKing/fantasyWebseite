@@ -4,6 +4,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!-- Das neueste kompilierte und minimierte CSS -->
 <link rel="stylesheet" href="css/bootstrap.css">
+
+<!--Firebase-->
+<script src="https://www.gstatic.com/firebasejs/6.0.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.0.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.0.1/firebase-firestore.js"></script>
+
+
+<script type="text/javascript">
+
+    const mailUser = document.getElementById('mail');
+    
+
+</script>
 <head>
     <meta charset="UTF-8">
     <title>Fantasyhockey</title>
@@ -24,18 +37,19 @@
     </div>
     <div class="col-md-12">
         <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+            <input  id ="mail" type="text" class="form-control" placeholder="Mail" aria-label="Mail" aria-describedby="basic-addon1">
         </div>
         <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Passwort" aria-label="Password" aria-describedby="basic-addon1">
+            <input id ="password" type="password" class="form-control" placeholder="Passwort" aria-label="Password" aria-describedby="basic-addon1">
         </div>
-        <input class="btn btn-primary" type="submit" value="Anmelden">
+        <button id="login" class="btn btn-primary" type="button">Anmelden</button>
+
     </div>
     <div class="col-md-12">
         <p class="text-justify text-center"> Du hast noch kein Account? Dann melde dich jetzt kostenfrei an.</p>
         <a href="pages/register.html"  ><button class="btn btn-primary">Regestrieren</button></a>
     </div>
+</div>
 </body>
-
 <script src="js/bootstrap.js"></script>
 </html>
