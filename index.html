@@ -4,19 +4,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!-- Das neueste kompilierte und minimierte CSS -->
 <link rel="stylesheet" href="css/bootstrap.css">
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.0.1/firebase-app.js"></script>
 
-<!--Firebase-->
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
 <script src="https://www.gstatic.com/firebasejs/6.0.1/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/6.0.1/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/6.0.1/firebase-firestore.js"></script>
 
 
-<script type="text/javascript">
-
-    const mailUser = document.getElementById('mail');
-    
-
-</script>
 <head>
     <meta charset="UTF-8">
     <title>Fantasyhockey</title>
@@ -47,9 +44,10 @@
     </div>
     <div class="col-md-12">
         <p class="text-justify text-center"> Du hast noch kein Account? Dann melde dich jetzt kostenfrei an.</p>
-        <a href="pages/register.html"  ><button class="btn btn-primary">Regestrieren</button></a>
+        <button id="signin" class="btn btn-primary">Regestrieren</button>
     </div>
 </div>
 </body>
 <script src="js/bootstrap.js"></script>
+<script src="js/firebaseAuth.js"></script>
 </html>
