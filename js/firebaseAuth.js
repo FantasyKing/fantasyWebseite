@@ -44,7 +44,13 @@ buttonSignin.addEventListener('click', e => {
 
 
 buttonLogout.addEventListener('click', e => {
-   firebase.auth().signOut();
+    alert('click');
+    firebase.auth().signOut().then(function() {
+        window.location = 'index.html';
+        console.log('loggout')
+    }).catch(function(error) {
+        // An error happened.
+    });
 });
 
 
@@ -52,6 +58,7 @@ firebase.auth().onAuthStateChanged(firebaseUser => {
     if(firebaseUser){
         console.log(firebaseUser);
         buttonLogout.classList.remove('hide');
+        //window.location = 'pages/dashboard.html';
 
     }else{
         console.log('no logged in');
