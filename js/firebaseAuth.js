@@ -63,5 +63,6 @@ firebase.auth().onAuthStateChanged(firebaseUser => {
     }else{
         console.log('no logged in');
         buttonLogout.classList.add('hide');
+        document.createElement()
     }
 });
