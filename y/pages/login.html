@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Das neueste kompilierte und minimierte CSS -->
+<link rel="stylesheet" href="../css/bootstrap.css">
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.0.1/firebase-auth.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>Fantasyhockey Login</title>
+</head>
+<body>
+<!-- Wird zentriert dargestellt, das .container -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Willkommen beim Fantasyhockey</h1>
+        </div>
+    </div>
+    <!-- für direkt login -->
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <img src="pictures/LOGO.png" class="img-responsive" alt="Responsive image">
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="input-group mb-3">
+            <input  id ="mail" type="text" class="form-control" placeholder="Mail" aria-label="Mail" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+            <input id ="password" type="password" class="form-control" placeholder="Passwort" aria-label="Password" aria-describedby="basic-addon1">
+        </div>
+        <button id="login" class="btn btn-primary" type="button">Anmelden</button>
+
+    </div>
+    <div class="col-md-12">
+        <p class="text-justify text-center"> Du hast noch kein Account? Dann melde dich jetzt kostenfrei an.</p>
+        <a href="register.html"><button id="signin" class="btn btn-primary">Regestrieren</button></a>
+    </div>
+</div>
+</body>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/firebaseAuth.js"></script>
+</html>

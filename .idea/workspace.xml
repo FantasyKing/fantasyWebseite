@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a6c53c4-8264-44d4-9d16-f1b388ef08d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/y/pages/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y/pages/datenschutz.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y/pages/features.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y/pages/impressum.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y/pages/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y/pages/pricing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y/pictures/DEL_Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y/pictures/schlittschuhe.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/y/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/y/index.html" afterDir="false" />
     </list>
@@ -16,11 +24,14 @@
       <executable />
     </execution>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="webseite" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -39,6 +50,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/y/pictures" />
       <recent name="$PROJECT_DIR$/y" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -104,7 +116,7 @@
       <workItem from="1560328253476" duration="7000" />
       <workItem from="1568021515640" duration="723000" />
       <workItem from="1568097523646" duration="351000" />
-      <workItem from="1568098230878" duration="190000" />
+      <workItem from="1568098230878" duration="11209000" />
     </task>
     <task id="LOCAL-00001" summary="Push Bootstrap">
       <created>1556910627271</created>
@@ -155,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558469191857</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Firebase Functions neu aufgesetzt. Alle neuen Datein in den y Ordner. und dann deployen. Im Terminal firebase deploy">
+      <created>1568100960163</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1568100960163</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
