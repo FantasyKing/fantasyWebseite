@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9a6c53c4-8264-44d4-9d16-f1b388ef08d4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/y/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/y/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,6 +115,7 @@
       <workItem from="1568021515640" duration="723000" />
       <workItem from="1568097523646" duration="351000" />
       <workItem from="1568098230878" duration="11450000" />
+      <workItem from="1568185100038" duration="3499000" />
     </task>
     <task id="LOCAL-00001" summary="Push Bootstrap">
       <created>1556910627271</created>
