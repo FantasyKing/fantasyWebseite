@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a6c53c4-8264-44d4-9d16-f1b388ef08d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/y/pages/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/y/pages/datenschutz.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/y/pages/features.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/y/pages/impressum.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/y/pages/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/y/pages/pricing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/y/pictures/DEL_Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/y/pictures/schlittschuhe.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/y/css/bootstrap.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/y/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/y/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,6 +29,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1QavR6a1hITtXATXaQjboLngFgv" />
@@ -116,7 +114,8 @@
       <workItem from="1560328253476" duration="7000" />
       <workItem from="1568021515640" duration="723000" />
       <workItem from="1568097523646" duration="351000" />
-      <workItem from="1568098230878" duration="11209000" />
+      <workItem from="1568098230878" duration="11450000" />
+      <workItem from="1568185100038" duration="3499000" />
     </task>
     <task id="LOCAL-00001" summary="Push Bootstrap">
       <created>1556910627271</created>
@@ -174,7 +173,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568100960163</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Firebase Functions neu aufgesetzt. Alle neuen Datein in den y Ordner. und dann deployen. Im Terminal firebase deploy">
+      <created>1568127798614</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1568127798614</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Index.html">
+      <created>1568127927135</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1568127927135</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -223,6 +236,7 @@
     <MESSAGE value="Start Seite" />
     <MESSAGE value="Firebase Functions neu aufgesetzt" />
     <MESSAGE value="Firebase Functions neu aufgesetzt. Alle neuen Datein in den y Ordner. und dann deployen. Im Terminal firebase deploy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Firebase Functions neu aufgesetzt. Alle neuen Datein in den y Ordner. und dann deployen. Im Terminal firebase deploy" />
+    <MESSAGE value="Index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Index.html" />
   </component>
 </project>
