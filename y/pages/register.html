@@ -1,20 +1,293 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>Login / Sign in Fantasyhockey</title>
-    <link href="../css/bootstrap.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.1/firebase-auth.js"></script>
+    <!--for Social Media Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Login bei Fantasyking</title>
 </head>
-<!-- Wird zentriert dargestellt, das .container -->
+<body class="bg-info">
+<div class="container-fluid">
+    <div class="navbar-collapse collapse show" id="navbar12" style=""><a class="navbar-brand d-none d-md-block">
+    </a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="../pictures/LOGO.png" height="50px"
+                                                  class="d-inline-block align-top img-fluid mx-auto pr-2" alt=""
+                                                  width="50px"> <b
+                    class="text-center text-capitalize d-inline-flex justify-content-center align-items-center"> FANTASY
+                KING</b> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/about.html">About</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="../pages/login.html">Log in</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="../pages/register.html">Register <span
+                        class="sr-only">(current)</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
 <div class="container">
     <div class="row">
-        <div class="col-md-10">
-            <h1>Login / Sign in </h1>
-        </div>
-        <div class="col-md-2">
-            <button class="btn btn-primary">Login / Sign In</button>
+        <div class="col-md-12">
+            <br>
         </div>
     </div>
-    </body>
-    <script src="../js/bootstrap.js"></script>
+    <!--Überschrift -->
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="text-muted">Willkommen bei der Registrierung</h1>
+            <hr/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h4 class="mb-3">Registrierung</h4>
+            <form class="needs-validation" novalidate>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="firstName">Vorname</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                        <div class="invalid-feedback">
+                            Valid first name is required.
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="lastName">Nachname</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                        <div class="invalid-feedback">
+                            Valid last name is required.
+                        </div>
+                    </div>
+                </div>
+                <!--Username-->
+                <div class="mb-3">
+                    <label for="username">Username</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">@</span>
+                        </div>
+                        <input type="text" class="form-control" id="username" placeholder="Username" required>
+                        <div class="invalid-feedback" style="width: 100%;">
+                            Your username is required.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                <div class="invalid-feedback">
+                    Please enter a valid email address.
+                </div>
+            </div>
+                <div class="mb-3">
+                    <label for="passwort">Passwort</label>
+                    <input type="password" class="form-control" id="passwort" placeholder="Dein Passwort">
+                    <div class="invalid-feedback">
+                        Please enter a valid password address.
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="address">Addresse</label>
+                    <input type="text" class="form-control" id="address" placeholder="Eishockeystraße" required>
+                    <div class="invalid-feedback">
+                        Please enter your adress.
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="address2">Address 2 <span class="text-muted">(Optional)</span></label>
+                    <input type="text" class="form-control" id="address2" placeholder="Strafbank 2">
+                </div>
+
+                <div class="row">
+                    <div class="col-md-5 mb-3">
+                        <label for="country">Land</label>
+                        <select class="custom-select d-block w-100" id="country" required>
+                            <option value="">Wähle</option>
+                            <option>Deutschland</option>
+                            <option>Österreich</option>
+                            <option>Schweiz</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid country.
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="state">State</label>
+                        <select class="custom-select d-block w-100" id="state" required>
+                            <option value="">Wähle ein Bundesland</option>
+                            <option>Baden-Württemberg</option>
+                            <option>Bayern</option>
+                            <option>Berlin</option>
+                            <option>Brandenburg</option>
+                            <option>Bremen</option>
+                            <option>Hamburg</option>
+                            <option>Hessen</option>
+                            <option>Mecklenburg-Vorpommern</option>
+                            <option>Niedersachsen</option>
+                            <option>Nordrhein-Westfalen</option>
+                            <option>Rheinland-Pfalz</option>
+                            <option>Saarland</option>
+                            <option>Sachsen</option>
+                            <option>Schleswig-Holstein</option>
+                            <option>Thüringen</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please provide a valid state.
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="zip">Zip</label>
+                        <input type="text" class="form-control" id="zip" placeholder="" required>
+                        <div class="invalid-feedback">
+                            Zip code required.
+                        </div>
+                    </div>
+                </div>
+                <hr class="mb-4">
+
+                <h4 class="mb-3">Payment</h4>
+
+                <div class="d-block my-3">
+                    <div class="custom-control custom-radio">
+                        <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
+                        <label class="custom-control-label" for="credit">Credit card</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
+                        <label class="custom-control-label" for="debit">Debit card</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
+                        <label class="custom-control-label" for="paypal">PayPal</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="cc-name">Name on card</label>
+                        <input type="text" class="form-control" id="cc-name" placeholder="" required>
+                        <small class="text-muted">Full name as displayed on card</small>
+                        <div class="invalid-feedback">
+                            Name on card is required
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="cc-number">Credit card number</label>
+                        <input type="text" class="form-control" id="cc-number" placeholder="" required>
+                        <div class="invalid-feedback">
+                            Credit card number is required
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 mb-3">
+                        <label for="cc-expiration">Expiration</label>
+                        <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+                        <div class="invalid-feedback">
+                            Expiration date required
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="cc-cvv">CVV</label>
+                        <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+                        <div class="invalid-feedback">
+                            Security code required
+                        </div>
+                    </div>
+                </div>
+                <hr class="mb-4">
+                <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!--Footer-->
+<footer class="mainfooter">
+    <div class="footer-middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <hr/>
+                    <!--Column1-->
+                    <div class="footer-pad">
+                        <h4>Newsletter</h4>
+                        <p class="lead">Sign up zum Newsletter und erhalte Infos zum Projekt.</p>
+                        <form class="form-inline">
+                            <div class="form-group"><input type="email" class="form-control"
+                                                           placeholder="Your e-mail here"></div>
+                            <button type="submit" class="btn btn-primary ml-3">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <hr/>
+                    <div class="footer-pad">
+                        <h4>Social Media</h4>
+                        <p class="lead">Folge uns auf den Sozialen Netzwerken</p>
+                        <a href="https://www.facebook.com/FantasyKing-110924633626115" class="fa fa-facebook"
+                           target="_blank"></a>
+                        <a href="https://twitter.com/FantasyKing_DE" class="fa fa-twitter" target="_blank"></a>
+                        <a href="https://www.instagram.com/fantasyking_de/" class="fa fa-instagram" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" style="text-align: center"><a href="../pages/impressum.html">Impressum</a> |
+                    <a href="../pages/datenschutz.html">Datenschutz</a></div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" style="text-align: center">© Copyright 2019 Fantasyking - All rights reserved.
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
 </html>
