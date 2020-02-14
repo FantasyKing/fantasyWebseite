@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a6c53c4-8264-44d4-9d16-f1b388ef08d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y/js/init-firebase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y/pages/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y/pictures/iPhoneX.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/y/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/y/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/y/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/y/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y/js/firebaseAuth.js" beforeDir="false" afterPath="$PROJECT_DIR$/y/js/firebaseAuth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/y/pages/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y/pages/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/y/pages/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y/pages/pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/y/pages/pricing.html" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +21,20 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="webseite" />
@@ -31,20 +50,29 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="F03-Registrierung" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1QavR6a1hITtXATXaQjboLngFgv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.startup.tasks" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -53,20 +81,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
-    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="lint" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/functions/package.json" />
       <command value="run" />
       <scripts>
@@ -81,6 +97,18 @@
         <item itemvalue="npm.lint" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -115,7 +143,21 @@
       <workItem from="1568021515640" duration="723000" />
       <workItem from="1568097523646" duration="351000" />
       <workItem from="1568098230878" duration="11450000" />
-      <workItem from="1568185100038" duration="3499000" />
+      <workItem from="1568185100038" duration="3779000" />
+      <workItem from="1568279556498" duration="9499000" />
+      <workItem from="1568359165530" duration="218000" />
+      <workItem from="1568359562232" duration="5179000" />
+      <workItem from="1568541266449" duration="91000" />
+      <workItem from="1568541368545" duration="1544000" />
+      <workItem from="1569058123048" duration="145000" />
+      <workItem from="1569583340265" duration="4432000" />
+      <workItem from="1569745739332" duration="395000" />
+      <workItem from="1573891429619" duration="252000" />
+      <workItem from="1574095636318" duration="702000" />
+      <workItem from="1574408815905" duration="14000" />
+      <workItem from="1577647283322" duration="1241000" />
+      <workItem from="1578337833692" duration="445000" />
+      <workItem from="1581678889390" duration="314000" />
     </task>
     <task id="LOCAL-00001" summary="Push Bootstrap">
       <created>1556910627271</created>
@@ -187,7 +229,70 @@
       <option name="project" value="LOCAL" />
       <updated>1568127927135</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="F01 Erste Version der Willkommensseite.">
+      <created>1568282924890</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1568282924890</updated>
+    </task>
+    <task id="LOCAL-00012" summary="F11 Features Seite erstellt. Flo schreibt texte desing kommt noch :)">
+      <created>1568297339310</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1568297339310</updated>
+    </task>
+    <task id="LOCAL-00013" summary="F13: Pricing. Seite erstellt und Elemente. Inhalte von Flo">
+      <created>1568299851164</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1568299851164</updated>
+    </task>
+    <task id="LOCAL-00014" summary="F13: Fixing von Links bei Pricing">
+      <created>1568300648092</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1568300648092</updated>
+    </task>
+    <task id="LOCAL-00015" summary="F12: About. Hier müssen noch Inhalte definiert werden. Die seite hat aber eine geringe Prio">
+      <created>1568304052275</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1568304052275</updated>
+    </task>
+    <task id="LOCAL-00016" summary="F02-Login Begonnen mit der UI">
+      <created>1568305175286</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1568305175286</updated>
+    </task>
+    <task id="LOCAL-00017" summary="F02-Login Basic UI erstellt Auth kommt noch.">
+      <created>1568361898283</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1568361898283</updated>
+    </task>
+    <task id="LOCAL-00018" summary="F02-Login Kommentare">
+      <created>1568362249932</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1568362249932</updated>
+    </task>
+    <task id="LOCAL-00019" summary="F03-Registrierung Begonnen mit der UI">
+      <created>1568364168522</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1568364168522</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView">
@@ -237,6 +342,37 @@
     <MESSAGE value="Firebase Functions neu aufgesetzt" />
     <MESSAGE value="Firebase Functions neu aufgesetzt. Alle neuen Datein in den y Ordner. und dann deployen. Im Terminal firebase deploy" />
     <MESSAGE value="Index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Index.html" />
+    <MESSAGE value="F01 Erste Version der Willkommensseite." />
+    <MESSAGE value="F11 Features Seite erstellt. Flo schreibt texte desing kommt noch :)" />
+    <MESSAGE value="F13: Pricing. Seite erstellt und Elemente. Inhalte von Flo" />
+    <MESSAGE value="F13: Fixing von Links bei Pricing" />
+    <MESSAGE value="F12: About. Hier müssen noch Inhalte definiert werden. Die seite hat aber eine geringe Prio" />
+    <MESSAGE value="F02-Login Begonnen mit der UI" />
+    <MESSAGE value="F02-Login Basic UI erstellt Auth kommt noch." />
+    <MESSAGE value="F02-Login Kommentare" />
+    <MESSAGE value="F03-Registrierung Begonnen mit der UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="F03-Registrierung Begonnen mit der UI" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581678996856">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1581678996856" />
+    <state width="1638" height="280" key="GridCell.Tab.0.bottom" timestamp="1577654610542">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1577654610542" />
+    <state width="1638" height="280" key="GridCell.Tab.0.center" timestamp="1577654610541">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1577654610541" />
+    <state width="1638" height="280" key="GridCell.Tab.0.left" timestamp="1577654610540">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1577654610540" />
+    <state width="1638" height="280" key="GridCell.Tab.0.right" timestamp="1577654610541">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1577654610541" />
   </component>
 </project>

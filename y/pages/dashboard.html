@@ -5,12 +5,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/bootstrap.css">
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/6.0.1/firebase-auth.js"></script>
+    <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-firestore.js"></script>
+
+    <!--Firebase Function-->
+    <script src="../js/init-firebase.js"></script>
+    <script src="../js/firebaseAuth.js"></script>
     <!--for Social Media Icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Pricing bei Fantasyking</title>
+    <title>Dein Dashboard</title>
 </head>
 <body class="bg-info">
 <div class="container-fluid">
@@ -34,15 +43,16 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Features</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="../pages/pricing.html">Pricing  <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/pricing.html">Pricing</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../pages/about.html">About</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="../pages/login.html">Log in</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="../pages/login.html">Log in <span
+                            class="sr-only">(current)</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="../pages/register.html">Register</a></li>
                 </ul>
             </div>
@@ -55,83 +65,13 @@
             <br>
         </div>
     </div>
+    <!--Überschrift-->
     <div class="row">
         <div class="col-md-12">
-            <h1 class="text-muted">Pricing bei Fantasyking</h1>
-            <h2 class="text-muted"><small>Was kostet der Spaß</small></h2>
+            <h1 class="text-muted">Dashboard</h1>
             <hr/>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-12">
-            <div class="alert alert-primary" role="alert" style="text-align: center">
-                Am Anfang wird FantasyKing kostenlos sein!
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <div class="card-deck mb-3 text-center">
-                <div class="card mb-4 shadow-sm">
-                    <div class="card-header">
-                        <h4 class="my-0 font-weight-normal">Free</h4>
-                    </div>
-                    <div class="card-body">
-                        <h1 class="card-title pricing-card-title">€0 <small class="text-muted">/ mo</small></h1>
-                        <ul class="list-unstyled mt-3 mb-4">
-                            <li>10 users included</li>
-                            <li>2 GB of storage</li>
-                            <li>Email support</li>
-                            <li>Help center access</li>
-                        </ul>
-                        <a href="login.html" class="btn btn-primary btn-lg">Starte jetzt und melde dich an</a>
-                    </div>
-                </div>
-                <div class="card mb-4 shadow-sm">
-                    <div class="card-header">
-                        <h4 class="my-0 font-weight-normal">Pro</h4>
-                    </div>
-                    <div class="card-body">
-                        <h1 class="card-title pricing-card-title">€15 <small class="text-muted">/ mo</small></h1>
-                        <ul class="list-unstyled mt-3 mb-4">
-                            <li>20 users included</li>
-                            <li>10 GB of storage</li>
-                            <li>Priority email support</li>
-                            <li>Help center access</li>
-                        </ul>
-                        <a href="login.html" class="btn btn-primary btn-lg">Starte jetzt und melde dich an</a>
-                    </div>
-                </div>
-                <div class="card mb-4 shadow-sm">
-                    <div class="card-header">
-                        <h4 class="my-0 font-weight-normal">All Star</h4>
-                    </div>
-                    <div class="card-body">
-                        <h1 class="card-title pricing-card-title">€29 <small class="text-muted">/ mo</small></h1>
-                        <ul class="list-unstyled mt-3 mb-4">
-                            <li>30 users included</li>
-                            <li>15 GB of storage</li>
-                            <li>Phone and email support</li>
-                            <li>Help center access</li>
-                        </ul>
-                        <a href="login.html" class="btn btn-primary btn-lg">Starte jetzt und melde dich an</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div
-    <div class="row">
-        <div class="col-md-12">
-            <div class="jumbotron">
-                <div class="container">
-                    <h3 class="display-5">Spiele Jetzt </h3>
-                    <p>Starte jetzt mit dem Spielen, Flo's Text wird dich überzeugen, dass du dieses geile Spiel Spielen
-                        willst.</p>
-                    <p><a class="btn btn-primary btn-lg" href="../pages/login.html" role="button">Spiele jetzt &raquo;</a></p>
-                </div>
-            </div>
-        </div>
 </div>
 
 <!--Footer-->
@@ -185,6 +125,7 @@
         </div>
     </div>
 </footer>
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
