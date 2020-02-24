@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a6c53c4-8264-44d4-9d16-f1b388ef08d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/y/js/init-firebase.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/y/pages/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/y/pictures/iPhoneX.png" afterDir="false" />
+    <list default="true" id="9a6c53c4-8264-44d4-9d16-f1b388ef08d4" name="Default Changelist" comment="Register">
+      <change afterPath="$PROJECT_DIR$/y/js/firebaseFunctions/firebaseRegister.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y/js/firebaseFunctions/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/y/js/firebaseAuth.js" beforeDir="false" afterPath="$PROJECT_DIR$/y/js/firebaseAuth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/y/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/y/pages/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y/js/firebaseAuth.js" beforeDir="false" afterPath="$PROJECT_DIR$/y/js/firebaseFunctions/firebaseAuth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y/pages/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/y/pages/dashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/y/pages/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/y/pages/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/y/pages/pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/y/pages/pricing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y/pages/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/y/pages/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +40,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -54,6 +52,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1QavR6a1hITtXATXaQjboLngFgv" />
   <component name="ProjectViewState">
@@ -76,6 +75,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/y/js/firebaseFunctions" />
       <recent name="$PROJECT_DIR$/y/pictures" />
       <recent name="$PROJECT_DIR$/y" />
       <recent name="$PROJECT_DIR$" />
@@ -158,6 +158,11 @@
       <workItem from="1577647283322" duration="1241000" />
       <workItem from="1578337833692" duration="445000" />
       <workItem from="1581678889390" duration="314000" />
+      <workItem from="1582010625740" duration="266000" />
+      <workItem from="1582353452741" duration="1179000" />
+      <workItem from="1582557389620" duration="267000" />
+      <workItem from="1582560419584" duration="188000" />
+      <workItem from="1582568291851" duration="2770000" />
     </task>
     <task id="LOCAL-00001" summary="Push Bootstrap">
       <created>1556910627271</created>
@@ -351,17 +356,21 @@
     <MESSAGE value="F02-Login Basic UI erstellt Auth kommt noch." />
     <MESSAGE value="F02-Login Kommentare" />
     <MESSAGE value="F03-Registrierung Begonnen mit der UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="F03-Registrierung Begonnen mit der UI" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/jansandau/fantasyWebseite into F02-Login&#10;&#10; Conflicts:" />
+    <MESSAGE value="ok" />
+    <MESSAGE value="Register" />
+    <option name="LAST_COMMIT_MESSAGE" value="Register" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581678996856">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="440" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1581678996856" />
-    <state x="336" y="100" key="CommitChangelistDialog2" timestamp="1581679434662">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="-1536" y="103" key="CommitChangelistDialog2" timestamp="1582571608069">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="336" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1581679434662" />
+    <state x="-1536" y="103" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1582571608069" />
+    <state x="336" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1581679506615" />
     <state width="1638" height="280" key="GridCell.Tab.0.bottom" timestamp="1577654610542">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -378,9 +387,23 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1577654610541" />
-    <state x="440" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581679439398">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="-1417" y="260" key="Vcs.Push.Dialog.v2" timestamp="1582571585502">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="440" y="253" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1581679439398" />
+    <state x="-1417" y="260" key="Vcs.Push.Dialog.v2/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1582571585502" />
+    <state x="440" y="253" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1581679508525" />
+    <state x="-1155" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582560432413">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1155" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1582560432413" />
+    <state x="-1286" y="338" key="git4idea.merge.GitPullDialog" timestamp="1582560457949">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1286" y="338" key="git4idea.merge.GitPullDialog/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1582560457949" />
+    <state x="-1531" y="266" key="new project wizard" timestamp="1582569240114">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1531" y="266" key="new project wizard/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1582569240114" />
+    <state x="-1531" y="266" key="new project wizard/-1920.0.1920.1080/0.23.1680.1027@-1920.0.1920.1080" timestamp="1582354379233" />
   </component>
 </project>

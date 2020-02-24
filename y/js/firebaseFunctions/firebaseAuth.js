@@ -18,14 +18,3 @@ function buttonLogin() {
 
     });
 }
-
-function buttonSignin (){
-
-    const email = textmail.value;
-    const pass = passwortInput.value;
-    const auth = firebase.auth();
-
-    const promise = auth.createUserWithEmailAndPassword(email, pass);
-
-    promise.catch(e => console.log(e.massage));
-}
