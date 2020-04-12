@@ -5,8 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/y/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/y/pages/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/y/pages/datenschutz.html" beforeDir="false" afterPath="$PROJECT_DIR$/y/pages/datenschutz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y/pages/features.html" beforeDir="false" afterPath="$PROJECT_DIR$/y/pages/features.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/y/pages/impressum.html" beforeDir="false" afterPath="$PROJECT_DIR$/y/pages/impressum.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/y/pages/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/y/pages/pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/y/pages/pricing.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +158,7 @@
       <workItem from="1582549305331" duration="306000" />
       <workItem from="1586498471503" duration="1722000" />
       <workItem from="1586589269289" duration="403000" />
-      <workItem from="1586704873083" duration="2834000" />
+      <workItem from="1586704873083" duration="3326000" />
     </task>
     <task id="LOCAL-00001" summary="Push Bootstrap">
       <created>1556910627271</created>
@@ -306,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586707091117</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Anpassung der html Seiten und CSS">
+      <created>1586708362970</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1586708362970</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TodoView">
@@ -365,17 +373,17 @@
     </state>
     <state x="-1222" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1586528120609" />
     <state x="-1222" y="311" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.23.1920.1057/0.23.1680.1027@-1920.23.1920.1057" timestamp="1586706942569" />
-    <state x="-1536" y="124" key="CommitChangelistDialog2" timestamp="1586707090928">
+    <state x="-1536" y="124" key="CommitChangelistDialog2" timestamp="1586708362864">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1536" y="103" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1586528220823" />
-    <state x="-1536" y="124" key="CommitChangelistDialog2/-1920.23.1920.1057/0.23.1680.1027@-1920.23.1920.1057" timestamp="1586707090928" />
+    <state x="-1536" y="124" key="CommitChangelistDialog2/-1920.23.1920.1057/0.23.1680.1027@-1920.23.1920.1057" timestamp="1586708362864" />
     <state x="336" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1581679434662" />
-    <state x="-1417" y="277" key="Vcs.Push.Dialog.v2" timestamp="1586707113267">
+    <state x="-1417" y="277" key="Vcs.Push.Dialog.v2" timestamp="1586708369733">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1417" y="260" key="Vcs.Push.Dialog.v2/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1586528223373" />
-    <state x="-1417" y="277" key="Vcs.Push.Dialog.v2/-1920.23.1920.1057/0.23.1680.1027@-1920.23.1920.1057" timestamp="1586707113267" />
+    <state x="-1417" y="277" key="Vcs.Push.Dialog.v2/-1920.23.1920.1057/0.23.1680.1027@-1920.23.1920.1057" timestamp="1586708369733" />
     <state x="440" y="253" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1581679439398" />
   </component>
 </project>
