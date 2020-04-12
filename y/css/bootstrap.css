@@ -4477,7 +4477,7 @@ input[type="button"].btn-block {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(37, 50, 55, 1);
 }
 
 .navbar-light .navbar-toggler {
@@ -5086,7 +5086,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #e9ecef;
+  background-color: #CCCCCC;
   border-radius: 0.3rem;
 }
 
@@ -9917,7 +9917,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-muted {
-  color: #6c757d !important;
+  color: #253237 !important;
 }
 
 .text-black-50 {
