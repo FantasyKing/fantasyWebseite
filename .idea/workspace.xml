@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a6c53c4-8264-44d4-9d16-f1b388ef08d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/y/pictures/ancient-4012123.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y/pictures/hockey-4612559.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y/pictures/hockey-net-1116009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y/pictures/hockey-puck-608582.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y/pictures/home-office-336378.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y/pictures/ice-4022207.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y/pictures/ice-4285443.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y/pictures/ice-hockey-4285440.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y/pictures/mountains-2287547.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y/pictures/office-4249395.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y/pictures/office-4249404.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y/pictures/whistle-2465084.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/y/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/y/pages/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/y/pages/datenschutz.html" beforeDir="false" afterPath="$PROJECT_DIR$/y/pages/datenschutz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/y/pages/features.html" beforeDir="false" afterPath="$PROJECT_DIR$/y/pages/features.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/y/pages/impressum.html" beforeDir="false" afterPath="$PROJECT_DIR$/y/pages/impressum.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/y/pages/pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/y/pages/pricing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/y/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +166,9 @@
       <workItem from="1582549305331" duration="306000" />
       <workItem from="1586498471503" duration="1722000" />
       <workItem from="1586589269289" duration="403000" />
-      <workItem from="1586704873083" duration="3326000" />
+      <workItem from="1586704873083" duration="3744000" />
+      <workItem from="1586765303472" duration="31000" />
+      <workItem from="1587020950362" duration="638000" />
     </task>
     <task id="LOCAL-00001" summary="Push Bootstrap">
       <created>1556910627271</created>
@@ -314,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586708362970</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Fixing back to Home">
+      <created>1586709000882</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1586709000882</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView">
@@ -361,7 +378,8 @@
     <MESSAGE value="F03-Registrierung Begonnen mit der UI" />
     <MESSAGE value="Anpassung der html Seiten" />
     <MESSAGE value="Anpassung der html Seiten und CSS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Anpassung der html Seiten und CSS" />
+    <MESSAGE value="Fixing back to Home" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing back to Home" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581678996856">
@@ -373,17 +391,17 @@
     </state>
     <state x="-1222" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1586528120609" />
     <state x="-1222" y="311" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.23.1920.1057/0.23.1680.1027@-1920.23.1920.1057" timestamp="1586706942569" />
-    <state x="-1536" y="124" key="CommitChangelistDialog2" timestamp="1586708362864">
+    <state x="-1536" y="124" key="CommitChangelistDialog2" timestamp="1586709000739">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1536" y="103" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1586528220823" />
-    <state x="-1536" y="124" key="CommitChangelistDialog2/-1920.23.1920.1057/0.23.1680.1027@-1920.23.1920.1057" timestamp="1586708362864" />
+    <state x="-1536" y="124" key="CommitChangelistDialog2/-1920.23.1920.1057/0.23.1680.1027@-1920.23.1920.1057" timestamp="1586709000739" />
     <state x="336" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1581679434662" />
-    <state x="-1417" y="277" key="Vcs.Push.Dialog.v2" timestamp="1586708369733">
+    <state x="-1417" y="277" key="Vcs.Push.Dialog.v2" timestamp="1586709093339">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1417" y="260" key="Vcs.Push.Dialog.v2/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1586528223373" />
-    <state x="-1417" y="277" key="Vcs.Push.Dialog.v2/-1920.23.1920.1057/0.23.1680.1027@-1920.23.1920.1057" timestamp="1586708369733" />
+    <state x="-1417" y="277" key="Vcs.Push.Dialog.v2/-1920.23.1920.1057/0.23.1680.1027@-1920.23.1920.1057" timestamp="1586709093339" />
     <state x="440" y="253" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1581679439398" />
   </component>
 </project>
